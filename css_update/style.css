@@ -1,0 +1,41 @@
+:root{
+  --base: #ffc600;
+  --spacing: 20px;
+  --blur: 10px;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background: #193549;
+  color: #fff;
+  padding: 30px;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+}
+
+h1{
+  font-size: 3rem;
+}
+
+span{
+  color: var(--base);
+}
+
+.container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+input{
+  cursor: pointer;
+}
