@@ -7,7 +7,8 @@ html{
   min-height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
+  padding-top: 10vh;
   text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -83,5 +84,13 @@ h2{
 }
 
 .add-items input:nth-child(2){
+  cursor: pointer;
+}
+
+button{
+  margin-top: 20px;
+  padding: 10px;
+  outline: 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
 }
